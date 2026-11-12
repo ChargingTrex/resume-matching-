@@ -1,0 +1,301 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "Java",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "JavaScript",
+      "aliases": [
+        "JS",
+        "ECMAScript"
+      ],
+      "implies": []
+    },
+    {
+      "name": "TypeScript",
+      "aliases": [
+        "TS"
+      ],
+      "implies": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Go",
+      "aliases": [
+        "Golang"
+      ],
+      "implies": []
+    },
+    {
+      "name": "SQL",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "PostgreSQL",
+      "aliases": [
+        "Postgres"
+      ],
+      "implies": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "aliases": [],
+      "implies": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "aliases": [
+        "Mongo"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Django",
+      "aliases": [],
+      "implies": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Django REST Framework",
+      "aliases": [
+        "DRF"
+      ],
+      "implies": [
+        "Django"
+      ]
+    },
+    {
+      "name": "Flask",
+      "aliases": [],
+      "implies": [
+        "Python"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "aliases": [],
+      "implies": [
+        "Python"
+      ]
+    },
+    {
+      "name": "pandas",
+      "aliases": [],
+      "implies": [
+        "Python"
+      ]
+    },
+    {
+      "name": "NumPy",
+      "aliases": [],
+      "implies": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "aliases": [
+        "ML"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Deep Learning",
+      "aliases": [
+        "DL"
+      ],
+      "implies": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "scikit-learn",
+      "aliases": [
+        "sklearn"
+      ],
+      "implies": [
+        "Python",
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "aliases": [],
+      "implies": [
+        "Python",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "aliases": [],
+      "implies": [
+        "Python",
+        "Deep Learning"
+      ]
+    },
+    {
+      "name": "React",
+      "aliases": [
+        "React.js"
+      ],
+      "implies": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "aliases": [],
+      "implies": [
+        "React"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "aliases": [
+        "Node"
+      ],
+      "implies": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Express",
+      "aliases": [
+        "Express.js"
+      ],
+      "implies": [
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Vue.js",
+      "aliases": [
+        "Vue"
+      ],
+      "implies": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Angular",
+      "aliases": [],
+      "implies": [
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "HTML",
+      "aliases": [
+        "HTML5"
+      ],
+      "implies": []
+    },
+    {
+      "name": "CSS",
+      "aliases": [
+        "CSS3"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Spring Boot",
+      "aliases": [],
+      "implies": [
+        "Java"
+      ]
+    },
+    {
+      "name": "Docker",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "Kubernetes",
+      "aliases": [
+        "k8s"
+      ],
+      "implies": []
+    },
+    {
+      "name": "AWS",
+      "aliases": [
+        "Amazon Web Services"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Google Cloud",
+      "aliases": [
+        "GCP",
+        "Google Cloud Platform"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "aliases": [
+        "Azure"
+      ],
+      "implies": []
+    },
+    {
+      "name": "Git",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "Linux",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "C",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "C++",
+      "aliases": [
+        "CPP"
+      ],
+      "implies": []
+    },
+    {
+      "name": "C#",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "F#",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": ".NET",
+      "aliases": [],
+      "implies": []
+    },
+    {
+      "name": "ASP.NET",
+      "aliases": [],
+      "implies": [
+        ".NET"
+      ]
+    }
+  ]
+}
