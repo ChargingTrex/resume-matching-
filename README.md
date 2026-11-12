@@ -5,7 +5,9 @@ percentage** that explains itself. The result shows which skills matched,
 which are missing, and why the number is what it is.
 
 It's pure Python, with no web framework, no database and no network calls,
-so you can drop it into any app, script or pipeline.
+so you can drop it into any app, script or pipeline. It's free for colleges,
+placement cells and personal projects, under the
+[AGPL-3.0](#license) license.
 
 ```text
 $ resume-match score data_engineer.pdf job_description.txt
@@ -39,6 +41,7 @@ $ resume-match score data_engineer.pdf job_description.txt
 8. [Improving accuracy with embeddings and a vector database](#improving-accuracy-with-embeddings-and-a-vector-database)
 9. [Command line](#command-line)
 10. [Development](#development)
+11. [License](#license)
 
 ---
 
@@ -76,8 +79,9 @@ $ resume-match score data_engineer.pdf job_description.txt
 
 ### What's new compared with the original in-app engine
 
-This package was extracted from a college placements platform's matching
-engine and made standalone. Here's what changed:
+This engine started inside a college placements platform. It has been split
+out as its own open-source project, so other colleges and individuals can run
+it in their own systems. Here's what changed:
 
 | Added / changed | Why |
 |---|---|
@@ -668,3 +672,25 @@ src/resume_matching/
   data/skills.json  the bundled skill vocabulary
   samples.py      hand-checked sample resumes and JD
 ```
+
+---
+
+## License
+
+Copyright (C) 2026 the resume-matching authors.
+
+Licensed under the **GNU Affero General Public License v3.0** (AGPL-3.0-only).
+See [`LICENSE`](LICENSE).
+
+In plain terms (the license text is what actually counts):
+
+- **You can** use, study, change and share this engine freely, for a
+  college, a placement cell, research or your own projects.
+- **If you distribute it, or let people use a modified version over a
+  network** (for example a web portal built on it), you must make your full
+  source code, including your changes, available under the AGPL-3.0 too.
+- **Commercial use is allowed**, but under the same terms. A company can't
+  take it into a closed, proprietary product or service.
+
+For use outside these terms, contact the maintainers through the
+[GitHub repository](https://github.com/ChargingTrex/resume-matching-).
