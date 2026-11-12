@@ -7,7 +7,7 @@ which are missing, and why the number is what it is.
 It's pure Python, with no web framework, no database and no network calls,
 so you can drop it into any app, script or pipeline. It's free for colleges,
 placement cells and personal projects, under the
-[GPL-3.0](#license) license.
+[AGPL-3.0](#license) license.
 
 ```text
 $ resume-match score data_engineer.pdf job_description.txt
@@ -679,18 +679,18 @@ src/resume_matching/
 
 Copyright (C) 2026 the resume-matching authors.
 
-Licensed under the **GNU General Public License v3.0** (GPL-3.0-only).
+Licensed under the **GNU Affero General Public License v3.0** (AGPL-3.0-only).
 See [`LICENSE`](LICENSE).
 
 In plain terms (the license text is what actually counts):
 
 - **You can** use, study, change and share this engine freely, for a
   college, a placement cell, research or your own projects.
-- **If you distribute it**, changed or not, on its own or inside your own
-  software, you must release the whole program's source code under the
-  GPL-3.0 too. Nobody can turn it into a closed, proprietary product that
-  they hand out or sell.
-- **Commercial use is allowed** under those same terms.
+- **If you distribute it, or let people use a modified version over a
+  network** (for example a web portal built on it), you must make your full
+  source code, including your changes, available under the AGPL-3.0 too.
+- **Commercial use is allowed**, but under the same terms. A company can't
+  take it into a closed, proprietary product or service.
 
 For use outside these terms, contact the maintainers through the
 [GitHub repository](https://github.com/ChargingTrex/resume-matching-).
