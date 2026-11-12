@@ -1,0 +1,5 @@
+# Optional: spaCy word-vector similarity (better than TF-IDF at synonyms)
+#   pip install -r requirements-spacy.txt
+#   python -m spacy download en_core_web_md
+-r requirements.txt
+spacy>=3.7

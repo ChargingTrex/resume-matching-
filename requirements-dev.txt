@@ -1,0 +1,4 @@
+# Running the tests
+-r requirements.txt
+pytest>=8
+reportlab>=4        # renders the sample resumes into real PDFs for the tests
